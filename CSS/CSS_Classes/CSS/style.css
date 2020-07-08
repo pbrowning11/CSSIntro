@@ -1,0 +1,47 @@
+/*.'class_name' calls the calss
+'selector_name'.'class_name' calls the selector with that class */
+/* p.error {
+    color: red;
+}
+p.success {
+    color: green;
+}
+p.success.feedback {
+    border: 1px dashed green;
+} */
+/*#'id_name' calls the id*/
+/*'selector_name'#'id_name' calls the selector with that specific id*/
+/*not the best practice to use IDs for CSS*/
+/* div#content{
+    background-color: #ebebeb;
+    padding: 20px;
+}
+div .error {
+    color: purple;
+} */
+/* a[href*="thenetninja"] {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a[href$=".com"] {
+    color: white;
+    background: red;
+    border: 2px solid blue;
+} */
+div{
+    color: lightcoral;
+    border: 1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+}
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson
+}
+p{
+    color: orange;
+}
